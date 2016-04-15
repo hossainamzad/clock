@@ -1,9 +1,13 @@
+
+/*function multipleOf2(num){
+		return num%2 == 0;
+}*/
 $(document).ready(function(){
 
 	var startTime = new Date(); 
 	globalHour = startTime.getHours();
 	globalMinute = startTime.getMinutes();
-	var nextTick = setInterval(function(){
+	 setInterval(function(){
  	
 		var time = new Date();
 		var hr = time.getHours();
@@ -40,6 +44,8 @@ $(document).ready(function(){
         	};
         	globalHour=hr;
         }
+
+        //function multiple 
     
 	}, 1);
 
